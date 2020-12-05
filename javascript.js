@@ -34,7 +34,7 @@
                     $(":checkbox").map(function() {
                         this.checked ? checked.push(this.id) : notChecked.push(this.id);
                     });
-                    localStorage.setItem("names " + checked[]);
+                    localStorage.setItem("Ids" + checked[]);
                     
                 
                 });
